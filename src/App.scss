@@ -1,0 +1,39 @@
+.App {
+  height: 2000px;
+  background-color: #fff;
+  .container {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    .text {
+      color: #fff;
+      font-size: 3rem;
+      font-weight: 700;
+      font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+      position: fixed;
+      z-index: 1;
+      text-align: center;
+      top: 100px;
+      mix-blend-mode: difference;
+      width: 940px;
+    }
+  }
+  .white {
+    position: relative;
+    background-color: #fff;
+    height: 300px;
+  }
+  .black {
+    background-color: #000;
+    position: relative;
+    height: 600px;
+    width: 100%;
+  }
+  .image {
+    background-image: url('AboutPicture.jpg');
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: 940px;
+  }
+}
